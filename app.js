@@ -15,6 +15,7 @@ const argv = require('yargs/yargs')(process.argv.slice(2))
     .demandOption(['s', 'd', 'c'])
     .argv;
 
+    
 // Gets certificate keys 
 const dsig = new Dsig(argv.c);
 
