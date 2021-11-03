@@ -1,6 +1,15 @@
 # Sign XML documents
 This scripts signs XML files passed as argument to the script
 
+## Installation
+
+Tested on **node v10.19.0** 
+1. ```$ git clone https://github.com/CostGranda/digital_signature.git```
+2. ```$ npm install```
+
+
+## Usage
+
 ```shell
 Usage: app.js [options]
 
