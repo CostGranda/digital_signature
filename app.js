@@ -20,7 +20,7 @@ const argv = require('yargs/yargs')(process.argv.slice(2))
 const dsig = new Dsig(argv.c);
 
 try {
-    dsig.openSession(argv.p);
+    dsig.openSession(argv.p.toString());
     //Opens de xml file to sign
     const file = fs.readFileSync(argv.s, 'utf-8')
     console.log(file)
