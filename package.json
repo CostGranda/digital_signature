@@ -1,0 +1,24 @@
+{
+  "name": "digital_signature",
+  "version": "1.0.0",
+  "description": "This script signs xml documents",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CostGranda/digital_signature.git"
+  },
+  "author": "JL Granda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CostGranda/digital_signature/issues"
+  },
+  "homepage": "https://github.com/CostGranda/digital_signature#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "pkcs12-xml": "^1.0.4",
+    "yarg": "^1.0.8"
+  }
+}
